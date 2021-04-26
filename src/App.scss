@@ -1,3 +1,21 @@
-.starter {
-  font-size: 18px;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  margin: auto;
+
+  &__link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+
+    &--active {
+      color: red;
+    }
+  }
+}
+
+.main {
+  width: 33%;
+  margin: auto;
 }

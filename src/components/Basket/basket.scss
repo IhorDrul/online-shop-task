@@ -1,0 +1,40 @@
+.basket {
+  text-align: center;
+
+  &__header {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2em;
+  }
+
+  &__list {
+    padding: 0;
+  }
+
+  &__item {
+    list-style-type: none;
+  }
+
+  &__product {
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  &__product-amount {
+    padding-left: 10px;
+    font-weight: 700;
+  }
+
+  &__button-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  &__button {
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background-color: coral;
+    border: none;
+  }
+}
