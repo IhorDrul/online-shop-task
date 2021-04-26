@@ -17,9 +17,6 @@
   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","price":45}]
 
 ### Result
+[DEMO LINK](https://IhorDrul.github.io/online-shop-task/)
 
 ### How to open in your computer
-
-1. Clone repository on your computer ()
-
-
