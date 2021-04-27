@@ -68,7 +68,7 @@ const App = () => {
   };
 
   useEffect(() => {
-    setStorageProd(addedProducts);
+    setStorageProd(addedProducts.sort((a, b) => a.id - b.id));
   }, [addedProducts, storageProd, setStorageProd]);
 
   return (

@@ -12,7 +12,6 @@ export const Basket = (
   },
 ) => {
   const [basketList, setBasketList] = useState([]);
-
   const totalPrice = storageProd.reduce((acc, curr) => (acc + curr.price), 0);
 
   const basketListCreator = (array) => {
